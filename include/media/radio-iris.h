@@ -32,6 +32,50 @@
 #include <linux/mutex.h>
 #include <linux/atomic.h>
 #include "radio-iris-commands.h"
+extern const unsigned char MIN_TX_TONE_VAL;
+extern const unsigned char MAX_TX_TONE_VAL;
+extern const unsigned char MIN_HARD_MUTE_VAL;
+extern const unsigned char MAX_HARD_MUTE_VAL;
+extern const unsigned char MIN_SRCH_MODE;
+extern const unsigned char MAX_SRCH_MODE;
+extern const unsigned char MIN_SCAN_DWELL;
+extern const unsigned char MAX_SCAN_DWELL;
+extern const unsigned char MIN_SIG_TH;
+extern const unsigned char MAX_SIG_TH;
+extern const unsigned char MIN_PTY;
+extern const unsigned char MAX_PTY;
+extern const unsigned short MIN_PI;
+extern const unsigned short MAX_PI;
+extern const unsigned char MIN_SRCH_STATIONS_CNT;
+extern const unsigned char MAX_SRCH_STATIONS_CNT;
+extern const unsigned char MIN_CHAN_SPACING;
+extern const unsigned char MAX_CHAN_SPACING;
+extern const unsigned char MIN_EMPHASIS;
+extern const unsigned char MAX_EMPHASIS;
+extern const unsigned char MIN_RDS_STD;
+extern const unsigned char MAX_RDS_STD;
+extern const unsigned char MIN_ANTENNA_VAL;
+extern const unsigned char MAX_ANTENNA_VAL;
+extern const unsigned char MIN_TX_PS_REPEAT_CNT;
+extern const unsigned char MAX_TX_PS_REPEAT_CNT;
+extern const unsigned char MIN_SOFT_MUTE;
+extern const unsigned char MAX_SOFT_MUTE;
+extern const unsigned char MIN_PEEK_ACCESS_LEN;
+extern const unsigned char MAX_PEEK_ACCESS_LEN;
+extern const unsigned char MIN_RESET_CNTR;
+extern const unsigned char MAX_RESET_CNTR;
+extern const unsigned char MIN_HLSI;
+extern const unsigned char MAX_HLSI;
+extern const unsigned char MIN_NOTCH_FILTER;
+extern const unsigned char MAX_NOTCH_FILTER;
+extern const unsigned char MIN_INTF_DET_OUT_LW_TH;
+extern const unsigned char MAX_INTF_DET_OUT_LW_TH;
+extern const unsigned char MIN_INTF_DET_OUT_HG_TH;
+extern const unsigned char MAX_INTF_DET_OUT_HG_TH;
+extern const signed char MIN_SINR_TH;
+extern const signed char MAX_SINR_TH;
+extern const unsigned char MIN_SINR_SAMPLES;
+extern const unsigned char MAX_SINR_SAMPLES;
 
 #define RADIO_HCI_COMMAND_HDR_SIZE sizeof(struct radio_hci_command_hdr)
 #define RADIO_HCI_EVENT_HDR_SIZE   sizeof(struct radio_hci_event_hdr)

@@ -3167,8 +3167,8 @@ config MACH_M8_WL
         help
           Support for HTC MSM8974 M8_WL
 
-config MACH_NAME
-        string "Macine Name"
+config PROJECT_NAME
+        string "Project Name"
         default ""
         help
           Support for Project Name
